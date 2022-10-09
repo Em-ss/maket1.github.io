@@ -3,8 +3,8 @@ constructor() {
 
 this.app = document.getElementById('app');
 
-// this.title = this.createElement('h1','title');
-// this.title.textContent = 'Github Search Rep';
+this.title = this.createElement('h1','title');
+this.title.textContent = 'Github Search Rep';
 
 this.searchLine = this.createElement('div','search-line');
 this.searchInput = this.createElement('input','search-input');
@@ -23,7 +23,7 @@ this.repsWrapper.append(this.repsList2);
 this.main = this.createElement('div','main');
 this.main.append(this.repsWrapper);
 
-// this.app.append(this.title);
+this.app.append(this.title);
 this.app.append(this.searchLine);
 this.app.append(this.main);
 }
