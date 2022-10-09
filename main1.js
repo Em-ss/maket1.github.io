@@ -4,7 +4,7 @@ constructor() {
 this.app = document.getElementById('app');
 
 this.title = this.createElement('h1','title');
-this.title.textContent = 'Github Search Rep';
+this.title.textContent = 'Github Search Repository';
 
 this.searchLine = this.createElement('div','search-line');
 this.searchInput = this.createElement('input','search-input');

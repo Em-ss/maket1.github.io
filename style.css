@@ -18,7 +18,7 @@ margin:auto;
 .search-line {
     width: 100%;
     margin-left:97px;
-   padding-top: 60px;
+   /* padding-top: 60px; */
 }
 
 .reps {
@@ -113,4 +113,12 @@ margin:auto;
     }
     .close:after {
     transform: rotate(-45deg);
+    }
+
+
+    .title {
+padding: 50px;
+text-align: center;
+margin:0;
+
     }
