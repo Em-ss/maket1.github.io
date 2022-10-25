@@ -1,0 +1,124 @@
+#app {
+max-width: 661px;
+min-height: 764px;
+background-color: rgba(196, 196, 196, 1);
+margin:auto;
+}
+
+
+.search-input {
+    /* margin: auto; */
+    width: 68.5%;
+    height: 61px;
+    font-size: 24px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.search-line {
+    width: 100%;
+    margin-left:97px;
+   /* padding-top: 60px; */
+}
+
+.reps {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+.rep-prev {
+    display: block;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    border:2px solid black;
+    width: 70%;
+    height: 44px;
+    background-color:rgba(227, 227, 227, 1);
+    font-size: 25px;
+    line-height: 18px;
+}
+.rep-prev:hover {
+    background-color:rgba(101, 205, 249, 1);
+}
+.rep-prev-span {
+   /* position: relative; */
+    line-height: 40px;
+    padding-left: 10px;
+}
+.rep-prev2 {
+    display: block;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    border:2px solid black;
+    width: 70%;
+    min-height: 120px;
+    background-color:rgba(227, 227, 227, 1);
+    font-size: 25px;
+    line-height: 18px;
+    background-color:rgba(226, 123, 235, 1);
+    position: relative;
+}
+.reps2 {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    margin-top:40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+
+
+.close {
+    display: inline-block;
+    position: absolute;
+  
+    margin-right: 34px; 
+    margin-left: 100%;
+    
+    border-radius:50%;
+  
+    right:10px;
+    top:40px;
+    z-index: 30000;
+  }
+  .close {
+    
+   
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+    
+    
+    }
+    .close:hover {
+    opacity: 1;
+    }
+    .close:before, .close:after {
+    position: absolute;
+    content: ' ';
+    height: 50px;
+    width: 4px;
+    background-color: red;
+    right: 18px;
+   top:-5px;
+   /* left:16px; */
+  
+    
+    }
+    .close:before {
+    transform: rotate(45deg);
+    }
+    .close:after {
+    transform: rotate(-45deg);
+    }
+
+
+    .title {
+padding: 50px;
+text-align: center;
+margin:0;
+
+    }
